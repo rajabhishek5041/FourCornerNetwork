@@ -20,10 +20,11 @@ import {
 function Footer() {
   return (
     <footer className="bg-[#12555B] text-white pt-4">
+
       <div className="flex flex-col md:flex-row justify-around w-full px-4 md:px-0">
         {/* Logo and Contact Information */}
-        <div className="logo w-full md:w-[30%] mb-0">
-          <img className="h-16 w-auto mx-auto md:mx-0" src='' alt="" />
+        <div className="logo w-full h-[180px] md:w-[30%] mb-0">
+          {/* <img className="h-24 w-auto mx-auto md:mx-0" src='./Images/fournetwork.png' alt="" /> */}
           <div className="pt-2 pb-4 text-center md:text-left">
             {/* Telephone Icon */}
             <h1 className="flex items-center justify-center md:justify-start">
@@ -31,8 +32,8 @@ function Footer() {
                 icon={faPhone}
                 className="text-white h-6 mr-2 hover:text-[#ffa75c]"
               />
-              <a href="tel:+919625040231">
-                +91 96250 40231
+              <a href="tel:+919106406707">
+                +91 9106406707
               </a>
             </h1>
 
@@ -45,7 +46,7 @@ function Footer() {
               <a
                 href="mailto:info@jksd.in?subject=Subject%20Here&body=Body%20Here"
               >
-                info@jksd.in
+               info@fourcornernetwork.co.in
               </a>
             </h1>
 
@@ -71,15 +72,15 @@ function Footer() {
 
         {/* Company Information */}
         <div className="w-full md:w-[30%] mb-8 md:mb-0">
-          <h1 className="text-center font-medium">Quick links</h1>
+          <h1 className="text-center font-medium">Direct Links</h1>
           <div className="bg-[#ffa75c] mt-2 mb-2 h-[3px] w-full"></div>
           <div className="flex flex-wrap justify-around md:justify-between">
             <div>
               <li>
-                <Link to="about">About Us</Link>
+                <Link to="aboutus">About Us</Link>
               </li>
               <li>
-                <Link to="contact">Contact Us</Link>
+                <Link to="contactus">Contact Us</Link>
               </li>
               <li>
                 <Link to="faq">FAQ</Link>
@@ -87,22 +88,24 @@ function Footer() {
             </div>
             <div>
               <li>
-                <Link to="jobassistance">Job Assistance</Link>
+                <Link to="workshops">Workshops</Link>
               </li>
               <li>
-                <Link to="privacypolicy">Privacy Policy</Link>
+                <Link to="therapysessions">Therapysessions</Link>
               </li>
               <li>
-                <Link to="termandcondition">Terms and Condition</Link>
+                <Link to="blogs">Blogs</Link>
               </li>
             </div>
           </div>
-          <div className="text-center mt-6">
+
+          {/* join us section  */}
+          {/* <div className="text-center mt-6">
             <h1 className="font-medium">Join Us</h1>
             <div className="bg-[#ffa75c] mt-2 mb-2 h-[3px] w-full"></div>
             <div className="flex gap-5 justify-center pt-2">
               <a
-                href="https://www.youtube.com/@jksdinfotech01"
+                href="https://www.youtube.com/@fourcornernetwork"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,7 +115,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://www.linkedin.com/company/jksdinfotechpvtltd/"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -122,7 +125,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://www.instagram.com/jksdinfotech/"
+                href="https://www.instagram.com/fourcornernetwork/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -132,7 +135,7 @@ function Footer() {
                 />
               </a>
               <a
-                href="https://www.facebook.com/jksdinfotech"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -142,34 +145,55 @@ function Footer() {
                 />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Product Information */}
         <div className="w-full  mb-4 md:w-[20%]">
-          <h1 className="font-medium text-center  md:text-left">
-            Our Divisions
-          </h1>
-          <div className="bg-[#ffa75c] mt-2  mb-2 h-[3px]  md:w-full"></div>
-          <div className=" md:text-left ml-[100px] md:ml-0 ">
-            <li>
-              <a href="#">Website Development</a>
-            </li>
-            <li>
-              <a href="#">HR Consulting</a>
-            </li>
-            <li>
-              <a href="https://jksdautomation.com/ " target="_blank">
-                Home Automation
+        <h1 className="font-medium text-center">Join Us</h1>
+            <div className="bg-[#ffa75c] mt-2 mb-2 h-[3px] w-full"></div>
+            <div className="flex gap-5 justify-center pt-2">
+              <a
+                href="https://www.youtube.com/@fourcornernetwork"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faYoutube}
+                  className="text-white text-2xl hover:text-[#FF0000]"
+                />
               </a>
-            </li>
-            <li>
-              <a href="#">Innovative Lab Setups</a>
-            </li>
-            <li>
-              <a href="#">Digital Marketing</a>
-            </li>
-          </div>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-white text-2xl hover:text-[#0A66C2]"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/fourcornernetwork/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="text-white text-2xl hover:text-[#E4405F]"
+                />
+              </a>
+              <a
+                href="/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faFacebook}
+                  className="text-white text-2xl hover:text-[#1877F2]"
+                />
+              </a>
+            </div>
         </div>
       </div>
 
@@ -177,7 +201,7 @@ function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center pl-4 md:pl-12 mt-3 pb-3">
         <div className="flex items-center gap-2">
           <img className="h-6" src='' alt="" />
-          <h1>Copyright 2024 JKSD infotech Pvt. Ltd.</h1>
+          <h1>Copyright © 2024 Four Corner Network</h1>
         </div>
         <div className="flex gap-5 md:gap-10 pr-4 md:pr-12 mt-2 md:mt-0">
           <Link to="/termandcondition">
