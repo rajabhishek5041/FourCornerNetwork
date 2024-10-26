@@ -9,6 +9,7 @@ import Therapy from './Pages/Therapysessions/Therapy.jsx'
 import Blogs from './Pages/Blogs/Blogs.jsx'
 import Contactus from './Pages/ContactUs/Contactus.jsx'
 import Home from './Components/Home.jsx'
+import Mentalhealth from './Pages/BlogPages/Mentalhealth.jsx'
 
 
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       <Route path='therapysessions' element={<Therapy />} />
       <Route path='blogs' element={<Blogs />} />
       <Route path='contactus' element={<Contactus />} />
+      <Route path='mentalhealth' element={<Mentalhealth />} />
       <Route path='/' element={<Home />} />
   
 
