@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Navbar from './Components/Navbar'
+// import FloatingContactButton from './components/FloatingContactButton'
+import Footer from './Components/Footer'
+import { Outlet, useLocation } from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
-
+  const location = useLocation();
+  const isNotFoundPage = location.pathname === '/404' || location.pathname === '*';
   return (
     <>
-      <div className='bg-green-600'>
-        <h1>Abhishek kumar singh</h1>
+      <div >
+      {!isNotFoundPage && <Navbar />}
+      <Outlet />
+      {!isNotFoundPage && <Footer />}
+      {/* {!isNotFoundPage && <FloatingContactButton />} */}
       </div>
     </>
   )
