@@ -19,6 +19,7 @@ import {
 
 function Footer() {
   return (
+
     <footer className="bg-[#12555B] text-white pt-4">
 
       <div className="flex flex-col md:flex-row justify-around w-full px-4 md:px-0">
@@ -103,6 +104,12 @@ function Footer() {
         {/* Product Information */}
         <div className="w-full  mb-4 md:w-[20%]">
         <h1 className="font-medium text-center">Join Us</h1>
+
+        </div>
+
+        {/* Product Information */}
+        <div className="w-full  mb-4 md:w-[20%]">
+        <h1 className="font-medium text-center">Join Us</h1>
             <div className="bg-[#ffa75c] mt-2 mb-2 h-[3px] w-full"></div>
             <div className="flex gap-5 justify-center pt-2">
               <a
@@ -146,6 +153,7 @@ function Footer() {
                 />
               </a>
             </div>
+
         </div>
       </div>
 
