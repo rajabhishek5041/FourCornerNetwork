@@ -2,7 +2,9 @@ import React from "react";
 
 const Booking = () => {
   return (
-    <div className="w-full flex justify-center items-center bg-green-500 py-8 md:py-12">
+    <div className="w-full flex justify-center h-[300px] items-center bg-gray-200 py-8 md:py-12">
+
+
       <div className="flex flex-col md:flex-row w-[90%] max-w-5xl">
         <div className="w-full md:w-1/2 px-4 h-auto flex flex-col items-center md:items-start justify-center font-bold text-center md:text-left">
           <h1 className="text-2xl md:text-4xl">Book a session now</h1>
@@ -26,8 +28,11 @@ const Booking = () => {
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center mt-6 md:mt-0">
           <img
-            className="h-[200px] sm:h-[240px] md:h-[280px] w-full max-w-xs md:max-w-none rounded-2xl object-cover"
-            src="./Images/booking.jpg"
+
+            className="h-[200px] sm:h-[240px] md:h-[300px] w-full max-w-xs md:max-w-none rounded-2xl object-cover"
+            src="./Images/team (2).png"
+
+
             alt="Booking"
           />
         </div>

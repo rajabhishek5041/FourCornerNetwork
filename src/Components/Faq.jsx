@@ -50,6 +50,7 @@ const faqData = [
         question: "What are the areas of specialization of Four Corner Network’s founders? ",
         answer: "The founders specialize in a variety of areas including neurotic disorders, children with special needs, queer affirmative therapy, suicide gatekeeping, and trauma-informed care."
     },
+
     {
         question: "Dental treatments are expensive? ",
         answer: "No .if dental treatments are done at early stage of treatments than it is very economical .buy when dental problem is advanced than costs keep increasing depends of what treatment is required.thats why its called “dental treatmens are not costly but negligence it."
@@ -70,6 +71,7 @@ const faqData = [
         question: "Can i use baking soda and salt for teeth whitening? ",
         answer: "No . It wilmake teeth surface rough amd damage it ."
     },
+
 ];
 
 export default Faq;

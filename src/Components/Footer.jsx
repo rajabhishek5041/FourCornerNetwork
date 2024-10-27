@@ -65,10 +65,7 @@ function Footer() {
             </h1>
           </div>
 
-          <div className="flex justify-center md:justify-start">
-            <img className="h-[120px]" src='' alt="" />
-            <img className="h-[120px]" src='' alt="" />
-          </div>
+    
         </div>
 
         {/* Company Information */}
@@ -100,53 +97,14 @@ function Footer() {
             </div>
           </div>
 
-          {/* join us section  */}
-          {/* <div className="text-center mt-6">
-            <h1 className="font-medium">Join Us</h1>
-            <div className="bg-[#ffa75c] mt-2 mb-2 h-[3px] w-full"></div>
-            <div className="flex gap-5 justify-center pt-2">
-              <a
-                href="https://www.youtube.com/@fourcornernetwork"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faYoutube}
-                  className="text-white text-2xl hover:text-[#FF0000]"
-                />
-              </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="text-white text-2xl hover:text-[#0A66C2]"
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/fourcornernetwork/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="text-white text-2xl hover:text-[#E4405F]"
-                />
-              </a>
-              <a
-                href="/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  className="text-white text-2xl hover:text-[#1877F2]"
-                />
-              </a>
-            </div>
-          </div> */}
+        
+       
+        </div>
+
+        {/* Product Information */}
+        <div className="w-full  mb-4 md:w-[20%]">
+        <h1 className="font-medium text-center">Join Us</h1>
+
         </div>
 
         {/* Product Information */}
@@ -195,6 +153,7 @@ function Footer() {
                 />
               </a>
             </div>
+
         </div>
       </div>
 
