@@ -19,7 +19,9 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[#19575B] text-white pt-4">
+
+    <footer className="bg-[#12555B] text-white pt-4">
+
       <div className="flex flex-col md:flex-row justify-around w-full px-4 md:px-0">
         {/* Logo and Contact Information */}
         <div className="logo w-full h-[180px] md:w-[30%] mb-0">
