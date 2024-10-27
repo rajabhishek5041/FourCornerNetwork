@@ -10,13 +10,13 @@ function Navbar() {
     };
 
     return (
-        <header className="bg-orange-300 py-3 w-full z-50 transition-all duration-300 sticky top-0">
+        <header className="bg-white py-3 w-full z-50 transition-all duration-300 sticky top-0">
 
             <nav className="flex justify-between items-center w-[94%] h-14 mx-auto">
                 <Link to="/">
                     <img
-                        className="w-40  object-contain cursor-pointer"
-                        src="./Images/fournetwork.png"
+                        className="w-28  object-contain cursor-pointer"
+                        src="./Images/circle.png"
                         alt="Logo"
                     />
                 </Link>
